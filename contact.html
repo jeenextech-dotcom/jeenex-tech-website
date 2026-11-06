@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | JEENEX TECH</title>
+
+    <meta name="description"
+        content="Contact JEENEX TECH for web development, app development, AI solutions, digital marketing and business automation.">
+
+    <!-- Existing Website CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Contact Page CSS -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- =================================
+         1. WEBSITE HEADER
+    ================================== -->
+
+    <header class="site-header">
+
+        <a href="index.html" class="brand">
+
+            <span class="brand-mark">
+                <img src="images/jeenex-logo.png"
+                     alt="JEENEX TECH Logo">
+            </span>
+
+            <span class="brand-copy">
+                <strong>JEENEX TECH</strong>
+                <small>DIGITAL SOLUTIONS</small>
+            </span>
+
+        </a>
+
+
+        <nav class="main-nav">
+
+            <a href="index.html" class="nav-link">
+                Home
+            </a>
+
+            <a href="services.html" class="nav-link">
+                Services
+            </a>
+
+            <a href="about.html" class="nav-link">
+                About
+            </a>
+
+            <a href="contact.html" class="nav-link active">
+                Contact
+            </a>
+
+            <a href="contact.html" class="nav-cta">
+                Get Started →
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =================================
+         2. CONTACT PAGE MAIN SECTION
+    ================================== -->
+
+    <main class="contact-page">
+
+        <section class="contact-container">
+
+
+            <!-- =================================
+                 3. LEFT SIDE - CONTACT VISUAL
+            ================================== -->
+
+            <div class="contact-left">
+
+                <div class="contact-left-content">
+
+                    <div class="contact-tag">
+                        <span>CONTACT</span> JEENEX TECH
+                    </div>
+
+
+                    <h1>
+                        Let's Build Your Next
+                        <span>AI-Powered</span> Solution.
+                    </h1>
+
+
+                    <p class="contact-description">
+                        Tell us about your project.
+                        Our team will get in touch with
+                        the right solution.
+                    </p>
+
+                </div>
+
+
+                <!-- ROBOT AND AI GLOBE -->
+
+                <div class="contact-hero-visual">
+
+                    <img
+                        src="images/contact-hero.png"
+                        alt="JEENEX TECH AI Robot Holding Digital AI Globe">
+
+                </div>
+
+
+                <!-- DIGITAL SERVICES -->
+
+                <div class="contact-services">
+
+                    <div class="contact-service-card">
+
+                        <img
+                            src="images/services-web-development.png"
+                            alt="Web Development">
+
+                        <div>
+                            <h3>Web</h3>
+                            <p>Development</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-service-card">
+
+                        <img
+                            src="images/services-app-development.png"
+                            alt="App Development">
+
+                        <div>
+                            <h3>App</h3>
+                            <p>Development</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-service-card">
+
+                        <img
+                            src="images/services-ai-brain.png"
+                            alt="AI Solutions">
+
+                        <div>
+                            <h3>AI</h3>
+                            <p>Solutions</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-service-card">
+
+                        <img
+                            src="images/services-marketing-analytics.png"
+                            alt="Digital Marketing">
+
+                        <div>
+                            <h3>Digital</h3>
+                            <p>Marketing</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-service-card">
+
+                        <img
+                            src="images/services-business-automation.png"
+                            alt="Business Automation">
+
+                        <div>
+                            <h3>Business</h3>
+                            <p>Automation</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- =================================
+                 4. RIGHT SIDE - ENQUIRY FORM
+            ================================== -->
+
+            <div class="contact-right">
+
+                <button
+                    type="button"
+                    class="contact-close"
+                    aria-label="Close Contact Page"
+                   onclick="if (window.parent !== window) { window.parent.postMessage('closeJeenexContactPopup', '*'); } else { window.location.href='index.html'; }">
+
+                    &times;
+
+                </button>
+
+
+                <div class="contact-form-heading">
+
+                    <h2>
+                        Send Us Your
+                        <span>Enquiry</span>
+                    </h2>
+
+                    <div class="heading-underline"></div>
+
+                </div>
+
+
+                <!-- CUSTOMER ENQUIRY FORM -->
+
+                <form class="contact-form"
+      id="jeenexContactForm"
+      action="https://api.web3forms.com/submit"
+      method="POST">
+
+<input type="hidden" name="access_key" value="60b81c21-34d6-42dc-be1e-6d625235e324">
+                    <!-- NAME AND EMAIL -->
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <span class="form-icon">♙</span>
+
+                            <input
+                                type="text"
+                                id="customerName"
+                                name="customerName"
+                                placeholder="Your Name *"
+                                autocomplete="name"
+                                required>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <span class="form-icon">✉</span>
+
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                name="customerEmail"
+                                placeholder="Email Address *"
+                                autocomplete="email"
+                                required>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- WHATSAPP / PHONE -->
+
+                    <div class="form-group full-width">
+
+                        <span class="form-icon">◉</span>
+
+                        <input
+                            type="tel"
+                            id="customerPhone"
+                            name="customerPhone"
+                            placeholder="WhatsApp / Phone (Optional)"
+                            autocomplete="tel">
+
+                    </div>
+
+
+                    <!-- SERVICE SELECTION -->
+
+                    <div class="form-group full-width">
+
+                        <span class="form-icon">▱</span>
+
+                        <select
+                            id="selectedService"
+                            name="selectedService"
+                            required>
+
+                            <option value="" disabled selected>
+                                Select a Service *
+                            </option>
+
+                            <option value="Web Development">
+                                Web Development
+                            </option>
+
+                            <option value="App Development">
+                                App Development
+                            </option>
+
+                            <option value="AI Solutions">
+                                AI Solutions
+                            </option>
+
+                            <option value="Digital Marketing">
+                                Digital Marketing
+                            </option>
+
+                            <option value="Business Automation">
+                                Business Automation
+                            </option>
+
+                            <option value="Other Services">
+                                Other Services
+                            </option>
+
+                            <option value="Not Sure - Please Suggest">
+                                Not Sure - Please Suggest
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- WEBSITE DEVELOPMENT TYPE -->
+
+                    <div
+                        class="form-group full-width website-type-group"
+                        id="websiteTypeGroup"
+                        hidden>
+
+                        <span class="form-icon">◇</span>
+
+                        <select
+                            id="websiteType"
+                            name="websiteType">
+
+                            <option value="" selected disabled>
+                                Select Website Type
+                            </option>
+
+                            <option value="Normal">
+                                Normal Website
+                            </option>
+
+                            <option value="Professional">
+                                Professional Website
+                            </option>
+
+                            <option value="Premium">
+                                Premium Website
+                            </option>
+
+                            <option value="Not Sure - Please Suggest">
+                                Not Sure - Please Suggest
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- PROJECT TIMELINE -->
+
+                    <div class="form-group full-width">
+
+                        <span class="form-icon">▦</span>
+
+                        <select
+                            id="projectTimeline"
+                            name="projectTimeline">
+
+                            <option value="" selected>
+                                Project Timeline (Optional)
+                            </option>
+
+                            <option value="As Soon As Possible">
+                                As Soon As Possible
+                            </option>
+
+                            <option value="Within 1 Month">
+                                Within 1 Month
+                            </option>
+
+                            <option value="Within 2-3 Months">
+                                Within 2-3 Months
+                            </option>
+
+                            <option value="Flexible">
+                                Flexible - No Fixed Timeline
+                            </option>
+
+                        </select>
+
+                    </div>
+
+
+                    <!-- PROJECT DETAILS -->
+
+                    <div class="form-group full-width textarea-group">
+
+                        <span class="form-icon">▤</span>
+
+                        <textarea
+                            id="projectDetails"
+                            name="projectDetails"
+                            rows="3"
+                            placeholder="Tell us about your project... (Optional)"></textarea>
+
+                    </div>
+
+
+                    <!-- CUSTOMER CONSENT -->
+
+                    <div class="contact-consent">
+
+                        <input
+                            type="checkbox"
+                            id="contactConsent"
+                            name="contactConsent"
+                            required>
+
+                        <label for="contactConsent">
+
+                            I agree to be contacted by JEENEX TECH
+                            regarding my enquiry. *
+
+                        </label>
+
+                    </div>
+
+
+                    <!-- SEND ENQUIRY BUTTON -->
+
+                    <button
+                        type="submit"
+                        class="send-enquiry-btn">
+
+                        <span class="send-icon">➤</span>
+
+                        <span>Send Enquiry</span>
+
+                        <span class="send-arrow">→</span>
+
+                    </button>
+
+
+                    <!-- FORM RESPONSE MESSAGE -->
+
+                    <div
+                        class="form-message"
+                        id="formMessage"
+                        aria-live="polite">
+
+                    </div>
+
+                </form>
+
+
+                <!-- =================================
+                     5. TRUST AND SUPPORT SECTION
+                ================================== -->
+
+                <div class="contact-trust">
+
+
+                    <div class="trust-item">
+
+                        <span class="trust-icon">♢</span>
+
+                        <p>
+                            Your Information
+                            <strong>is Safe &amp; Secure</strong>
+                        </p>
+
+                    </div>
+
+
+                    <div class="trust-item">
+
+                        <span class="trust-icon">ϟ</span>
+
+                        <p>
+                            Quick
+                            <strong>Response</strong>
+                        </p>
+
+                    </div>
+
+
+                    <div class="trust-item">
+
+                        <span class="trust-icon">☏</span>
+
+                        <p>
+                            Expert
+                            <strong>Support</strong>
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =================================
+         6. CONTACT FORM INTERACTION
+    ================================== -->
+
+    <script>
+
+        const selectedService =
+            document.getElementById("selectedService");
+
+        const websiteTypeGroup =
+            document.getElementById("websiteTypeGroup");
+
+        const websiteType =
+            document.getElementById("websiteType");
+
+
+        // Show Website Type only for Web Development
+
+        selectedService.addEventListener("change", function () {
+
+            if (this.value === "Web Development") {
+
+                websiteTypeGroup.hidden = false;
+
+            } else {
+
+                websiteTypeGroup.hidden = true;
+
+                websiteType.value = "";
+
+            }
+
+        });
+
+
+        // Form submission is not connected yet.
+        // Email notification will be configured later.
+
+      document.getElementById("jeenexContactForm")
+    .addEventListener("submit", async function (event) {
+
+        event.preventDefault();
+
+        const form = this;
+        const message = document.getElementById("formMessage");
+        const submitButton = form.querySelector('button[type="submit"]');
+
+        message.textContent = "Sending your enquiry...";
+        submitButton.disabled = true;
+
+        try {
+            const formData = new FormData(form);
+            const data = Object.fromEntries(formData.entries());
+
+            const response = await fetch(form.action, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: JSON.stringify(data)
+            });
+
+            const result = await response.json();
+
+            if (response.ok && result.success) {
+                message.textContent =
+                    "Thank you! Your enquiry has been sent successfully.";
+
+                form.reset();
+                websiteTypeGroup.hidden = true;
+            } else {
+                message.textContent =
+                    "Sorry! Your enquiry could not be sent. Please try again.";
+            }
+
+        } catch (error) {
+            message.textContent =
+                "Connection error. Please try again.";
+
+        } finally {
+            submitButton.disabled = false;
+        }
+
+    });
+
+               
+    
+<script>
+
+    // Show Website Type only for Web Development
+
+    const selectedService =
+        document.getElementById("selectedService");
+
+    const websiteTypeGroup =
+        document.getElementById("websiteTypeGroup");
+
+    const websiteType =
+        document.getElementById("websiteType");
+
+    selectedService.addEventListener("change", function () {
+
+        if (this.value === "Web Development") {
+
+            websiteTypeGroup.hidden = false;
+
+        } else {
+
+            websiteTypeGroup.hidden = true;
+            websiteType.value = "";
+
+        }
+
+    });
+
+
+    // Contact Popup Mode
+
+    if (new URLSearchParams(window.location.search).get("popup") === "1") {
+
+        document.body.classList.add("contact-embedded");
+
+    }
+
+
+    // Form Demo Submission
+
+    document.getElementById("jeenexContactForm")
+        .addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            const message =
+                document.getElementById("formMessage");
+
+            message.textContent =
+                "Form design is ready. Email service will be connected in the next step.";
+
+        });
+
+</script>
+
+</body>
+</html>

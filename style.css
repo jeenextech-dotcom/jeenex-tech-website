@@ -1,0 +1,719 @@
+/* JEENEX.TECH - Premium AI Website */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #070B1A;
+    color: white;
+  font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+/* Website Header */
+
+header {
+    background: #0B1530;
+    padding: 12px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #163B70;
+}
+
+
+header h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 0;
+}
+
+header h2::before {
+    content: "";
+    display: inline-block;
+    width: 58px;
+    height: 36px;
+    background: linear-gradient(
+        110deg,
+        #00D9FF 0%,
+        #00D9FF 42%,
+        transparent 42%,
+        transparent 54%,
+        #087BFF 54%,
+        #087BFF 96%,
+        transparent 96%
+    );
+    transform: skewX(-12deg);
+    flex-shrink: 0;
+}
+
+}
+
+/* Navigation Menu */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 28px;
+    flex-wrap: nowrap;
+    margin-left: auto;
+}
+
+nav a {
+    color: #DCEBFF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 12px 10px;
+    margin-left: 8px;
+    transition: 0.3s;
+    white-space: nowrap;
+}
+
+nav a:hover {
+    color: #00FFFFFF;
+}
+
+/* Main Section */
+
+main {
+    padding: 100px 5%;
+    text-align: center;
+}
+
+/* Main Heading */
+
+h1 {
+    color: #FFFFFF;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+/* Description */
+
+p {
+    color: #9BB8E8;
+    font-size: 20px;
+    line-height: 1.6;
+}/* PREMIUM AI HERO SECTION */
+
+main {
+    padding: 0;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 35px 7%;
+    text-align: left;
+
+   background:
+linear-gradient(
+    90deg,
+    rgba(3, 8, 20, 0.75) 0%,
+    rgba(3, 8, 20, 0.35) 50%,
+    rgba(3, 8, 20, 0.05) 100%
+),
+url("images/ai-robot.png.png");
+
+background-size: cover;
+background-position: center;
+background-position: center 10%;
+}
+
+.hero-content {
+    max-width: 700px;
+}
+
+.hero-tag {
+    font-family: 'Poppins', sans-serif;
+    color: #00c8ff;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    text-shadow: 0 0 12px rgba(0, 190, 255, 0.35);
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 1.18;
+    letter-spacing: -1.4px;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 15px rgba(0, 160, 255, 0.15);
+}
+
+.hero-description {
+    font-family: 'Inter', sans-serif;
+    color: #dbeafe;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+    margin-bottom: 38px;
+    text-shadow: 0 1px 8px rgba(0, 160, 255, 0.15);
+}
+
+.hero-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background: linear-gradient(
+        100deg,
+        #0066ff,
+        #00bfff,
+        #00e5ff
+    );
+    color: #ffffff;
+    padding: 17px 34px;
+    border: 1px solid rgba(255,255,255,0.35);
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    box-shadow:
+        0 0 15px rgba(0,191,255,0.65),
+        0 0 35px rgba(0,102,255,0.35);
+    transition: all 0.3s ease;
+}
+
+.hero-button::after {
+    content: "→";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 22px rgba(0,191,255,0.9),
+        0 0 45px rgba(0,102,255,0.55);
+}
+
+}
+
+.hero-button::after {
+    content: "→";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px);
+    box-shadow:
+        0 0 22px rgba(0,191,255,0.9),
+        0 0 45px rgba(0,102,255,0.55);
+}
+
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    object-fit: contain;
+}/* Full Background AI Hero Design */
+
+.hero {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.hero-image {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.35;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}/* AI Image Size Correction */
+
+.hero-image {
+    opacity: 1;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: contain;
+    object-position: center;
+    position: relative;
+    top: 60px !important;
+    opacity: 1;
+    filter: brightness(1.08) contrast(1.12) saturate(1.15);
+}/* Remove duplicate hero image */
+.hero-image {
+    display: none !important;
+}/* =================================
+   JEENEX TECH - PREMIUM SERVICES
+================================= */
+
+.services {
+    display: grid;
+    grid-template-columns: 0.85fr 2.8fr;
+    gap: 30px;
+    align-items: center;
+    padding: 90px 4% 140px;
+    min-height: 480px;
+    background:
+        linear-gradient(
+            120deg,
+            rgba(2, 8, 23, 0.10),
+            rgba(2, 8, 23, 0.05)
+        ),
+        url("images/digital-world-bg.png") center center / cover no-repeat;
+    border-top: 1px solid rgba(0, 160, 255, 0.25);
+}
+
+.services-intro {
+    max-width: 260px;
+}
+
+.services-tag {
+    color: #00bfff;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+.services-intro h2 {
+    color: white;
+    font-size: 46px;
+    line-height: 1.05;
+    font-weight: 800;
+    margin-bottom: 18px;
+}
+
+.services-intro h2 span {
+    color: #00bfff;
+    text-shadow: 0 0 15px rgba(0, 191, 255, 0.5);
+}
+
+.services-intro > p:last-child {
+    color: #a8bfdc;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.services-grid {
+    display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.service-card {
+    min-height: 210px;
+    padding: 30px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: linear-gradient(
+        145deg,
+        rgba(3, 18, 48, 0.97),
+        rgba(2, 9, 28, 0.98)
+    );
+
+    border: 1px solid rgba(0, 190, 255, 0.75);
+    border-radius: 16px;
+
+    box-shadow:
+        0 0 12px rgba(0, 160, 255, 0.35),
+        0 0 25px rgba(0, 130, 255, 0.25),
+        inset 0 0 20px rgba(0, 100, 255, 0.12);
+
+    transition: all 0.3s ease;
+}
+        
+box-shadow:
+    0 0 12px rgba(0, 180, 255, 0.45),
+    0 0 25px rgba(0, 150, 255, 0.35),
+    0 0 40px rgba(0, 100, 255, 0.25),
+    inset 0 0 20px rgba(0, 150, 255, 0.12);
+
+    );
+    border: 1px solid rgba(0, 170, 255, 0.5);
+    border-radius: 16px;
+   box-shadow:
+    0 0 12px rgba(0, 160, 255, 0.55),
+    0 0 25px rgba(0, 130, 255, 0.45),
+    0 0 45px rgba(0, 100, 255, 0.25),
+    inset 0 0 20px rgba(0, 150, 255, 0.15);
+    transition: all 0.3s ease;
+}
+
+/* PREMIUM BLUE NEON SERVICE CARDS */
+
+.service-card {
+    min-height: 210px;
+    padding: 30px 20px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background: linear-gradient(
+        145deg,
+        rgba(5, 22, 58, 0.96),
+        rgba(2, 10, 32, 0.98)
+    );
+
+    border: 1px solid rgba(0, 170, 255, 0.75);
+    border-radius: 16px;
+
+    box-shadow:
+        0 0 15px rgba(0, 120, 255, 0.35),
+        0 0 30px rgba(0, 90, 255, 0.25),
+        inset 0 0 20px rgba(0, 100, 255, 0.12);
+
+    transition: all 0.35s ease;
+}
+
+/* STRONG BLUE NEON HOVER */
+
+.service-card:hover {
+    transform: translateY(-8px);
+
+    border-color: #00dfff;
+
+    background: linear-gradient(
+        145deg,
+        rgba(4, 28, 75, 0.98),
+        rgba(2, 12, 42, 0.99)
+    );
+
+    box-shadow:
+        0 0 18px rgba(0, 210, 255, 0.95),
+        0 0 40px rgba(0, 150, 255, 0.85),
+        0 0 75px rgba(0, 100, 255, 0.65),
+        0 0 110px rgba(0, 70, 255, 0.35),
+        inset 0 0 30px rgba(0, 180, 255, 0.22);
+}
+
+.service-icon {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00cfff;
+    font-size: 25px;
+    border: 1px solid rgba(0, 191, 255, 0.5);
+    border-radius: 50%;
+    background: rgba(0, 150, 255, 0.12);
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.2);
+}
+
+.service-card h3 {
+    color: white;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 14px;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+}
+
+.service-card p {
+    color: #c5d8f0;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+/* TABLET RESPONSIVE DESIGN */
+
+@media (max-width: 1100px) {
+    .services {
+        grid-template-columns: 1fr;
+    }
+
+    .services-intro {
+        max-width: 100%;
+        text-align: center;
+    }
+
+   .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+}
+
+/* MOBILE RESPONSIVE DESIGN */
+
+@media (max-width: 600px) {
+    .services {
+        padding: 60px 5%;
+    }
+
+    .services-intro h2 {
+        font-size: 38px;
+    }
+
+    .services-grid {
+    grid-template-columns: 1fr;
+}
+}/* PREMIUM GET STARTED BUTTON */
+
+.nav-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    padding: 12px 22px;
+
+    color: #FFFFFF;
+    background: linear-gradient(
+        135deg,
+        #008BFF,
+        #00D9FF
+    );
+
+    border: 1px solid #00D9FF;
+    border-radius: 30px;
+
+    font-weight: 700;
+
+    box-shadow:
+        0 0 12px rgba(0, 160, 255, 0.5),
+        0 0 25px rgba(0, 130, 255, 0.3);
+
+    transition: all 0.3s ease;
+}
+
+/* BUTTON HOVER EFFECT */
+
+.nav-cta:hover {
+    color: #FFFFFF;
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 15px rgba(0, 200, 255, 0.8),
+        0 0 35px rgba(0, 170, 255, 0.7);
+
+}.nav-cta:hover {
+    color: #FFFFFF;
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 15px rgba(0, 200, 255, 0.8),
+        0 0 35px rgba(0, 170, 255, 0.7);
+}
+
+/* =================================
+   JEENEX TECH - PREMIUM BRAND LOGO
+================================= */
+
+.site-header .brand {
+    display: flex;
+    align-items: center;
+    gap: 1px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    flex-shrink: 0;
+}
+
+/* BLUE J BRAND MARK */
+
+.site-header .brand-mark {
+    width: 54px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: linear-gradient(
+        135deg,
+        #00D9FF,
+        #0066FF
+    );
+
+    color: #00132E;
+    font-size: 38px;
+    font-weight: 900;
+    font-style: italic;
+
+    border-radius: 9px;
+    line-height: 1;
+    box-shadow: 0 0 16px rgba(0, 140, 255, 0.35);
+}
+
+/* BRAND NAME AND TAGLINE */
+
+.site-header .brand-copy {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    text-decoration: none;
+}
+
+/* JEENEX TECH */
+
+.site-header .brand-copy strong {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    line-height: 1.1;
+}
+
+/* DIGITAL SOLUTIONS */
+
+.site-header .brand-copy small {
+    color: #D5E5FF;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+
+/* CUSTOM GEOMETRIC J LOGO */
+
+.site-header .brand-mark {
+    width: 58px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.site-header .brand-mark img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* =====================================
+   JEENEX TECH - PREMIUM BLUE NAVIGATION
+===================================== */
+
+.site-header .main-nav .nav-link {
+    color: #EAF6FF;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+
+    padding: 10px 18px;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    background: transparent;
+
+    transition: all 0.3s ease;
+}
+
+/* BLUE HOVER EFFECT */
+
+.site-header .main-nav .nav-link:hover {
+    color: #FFFFFF;
+
+    background: rgba(0, 145, 255, 0.15);
+
+    border: 1px solid #008CFF;
+
+    box-shadow:
+        0 0 10px rgba(0, 150, 255, 0.45),
+        0 0 22px rgba(0, 120, 255, 0.25);
+
+    transform: translateY(-2px);
+}
+
+/* KEYBOARD FOCUS EFFECT */
+
+.site-header .main-nav .nav-link:focus-visible {
+    outline: 2px solid #00D9FF;
+    outline-offset: 4px;
+}
+
+/* GET STARTED BUTTON */
+
+.site-header .main-nav .nav-cta {
+    margin-left: 12px;
+}
+
+/* SMOOTH BUTTON TRANSITION */
+
+.site-header .main-nav a {
+    transition: all 0.3s ease;
+}
+/* MOBILE NAVIGATION FIX */
+
+@media (max-width: 600px) {
+
+    .site-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .brand {
+        justify-content: center;
+    }
+
+    .main-nav {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nav-link {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+
+    .nav-cta {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+
+}
